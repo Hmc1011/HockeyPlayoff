@@ -1,7 +1,7 @@
 <?php
 require("Autoload/autoload.php");
 
-use Input\Input;
+use Input\Console\Input;
 use Processor\GameProcessor;
 
 $input = new Input();

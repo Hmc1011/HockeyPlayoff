@@ -1,13 +1,13 @@
 <?php
 
-namespace Model;
+namespace Model\Entity;
 
-use Model\Team;
+use Model\Entity\Team;
 use Processor\MatchController;
 use Model\MatchObjectInterface;
 use Helper\Render;
 
-class Division implements DivisionInterface
+class Division implements \Model\DivisionInterface
 {
     const TEAM_NAMES = ["A", "B", "C", "D", "E", "F", "G", "H"];
     protected $_name = "";

@@ -1,10 +1,10 @@
 <?php
 
-namespace Model;
+namespace Model\Entity;
 
-use Model\Player;
+use Model\Entity\Player;
 
-class Team implements MatchObjectInterface
+class Team implements \Model\MatchObjectInterface
 {
     const NUM_PLAYERS = 21;
     protected $_name = "";

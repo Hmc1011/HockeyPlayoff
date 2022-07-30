@@ -1,8 +1,8 @@
 <?php
 
-namespace Input;
+namespace Input\Console;
 
-class Input implements InputInterface
+class Input implements \Input\InputInterface
 {
     const QUESTION = "Are you want to play?(y/n) : ";
 

@@ -2,9 +2,9 @@
 
 namespace Processor;
 
-use Output\Output;
+use Output\Console\Output;
 use Processor\MatchController;
-use Model\Division;
+use Model\Entity\Division;
 use Model\DivisionInterface;
 use Helper\Render;
 

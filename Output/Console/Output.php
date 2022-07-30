@@ -1,8 +1,8 @@
 <?php
 
-namespace Output;
+namespace Output\Console;
 
-class Output implements OutputInterface
+class Output implements \Output\OutputInterface
 {
 
     protected  $output = "";
@@ -16,4 +16,5 @@ class Output implements OutputInterface
     {
         $this->output .= $string;
     }
+    
 }
