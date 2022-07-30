@@ -1,5 +1,5 @@
 <?php
-require("Autoload/autoload.php");
+require 'vendor/autoload.php';
 
 use Input\Console\Input;
 use Processor\GameProcessor;
